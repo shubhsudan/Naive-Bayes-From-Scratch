@@ -1,0 +1,29 @@
+# Naive Bayes and Bayesian Network — Implementation
+
+## Overview
+This notebook implements:
+• Probabilistic inference using joint distributions
+• Naive Bayes classifier (manual + sklearn)
+• Text classification with Laplace smoothing
+• Bayesian Network probability calculations
+
+## Contents
+- **Section 1:** Manual probability calculations using joint distributions  
+- **Section 2:** Naive Bayes classification with categorical data (manual + `scikit-learn`)  
+- **Section 3:** Text classification on *Movie Review* and *20 Newsgroup* datasets  
+- **Section 4:** Bayesian Network computations with conditional probability tables  
+
+## Implementation Highlights
+- Custom Naive Bayes implementation with **prior**, **likelihood**, and **posterior** estimation  
+- Text preprocessing pipeline: tokenization, lowercasing, and vocabulary construction  
+- **Laplace smoothing** (`alpha=1`) to handle zero-frequency problems  
+- Evaluation metrics: **accuracy**, **precision**, and **recall** (macro-averaged)  
+- Comparative testing with and without smoothing  
+- Bayesian Network representation using **Conditional Probability Tables (CPTs)**  
+
+## How to Run
+1. Place the notebook and required datasets in the same directory.  
+2. Open the notebook in **Jupyter (Narnia environment)**.  
+3. Execute all cells sequentially.  
+4. The value of **alpha** is preset to `1` for this experiment.  
+5. To test the Bayesian Network, open the provided `.oobn` file in **Hugin** software
